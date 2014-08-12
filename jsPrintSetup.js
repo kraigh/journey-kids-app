@@ -1,5 +1,7 @@
 console.log('foobar!');
-var jsPrintSetup = new Object();
-jsPrintSetup.test = function(){
-    console.log('tested!');
+window.jsPrintSetup = {
+    test : function () {
+        console.log('tested!');
+    }
 }
+console.log(window.jsPrintSetup);
