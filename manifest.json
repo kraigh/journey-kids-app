@@ -14,9 +14,9 @@
   "app": {
     "background": {
       "scripts": ["background.js"]
-    },
-    "launch": {
-      "web_url": "https://trailheadchurch.onthecity.org/childrens/admin/login"
     }
-  }
+  },
+  "permissions": [
+    "webview"
+  ]
 }
