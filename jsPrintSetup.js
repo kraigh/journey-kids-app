@@ -1,7 +1,7 @@
 console.log('foobar!');
-window.jsPrintSetup = {
+function jsPrintSetup() {
     test : function () {
         console.log('tested!');
     }
 }
-console.log(window.jsPrintSetup);
+console.log(jsPrintSetup.test());
